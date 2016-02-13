@@ -32,6 +32,7 @@ cd build
 ######################################################
 git clone https://github.com/unruhschuh/MrWriter
 cd MrWriter
+git checkout v0.0.3
 qmake-qt5 MrWriter.pro
 make -j 4
 cd ..
@@ -59,6 +60,7 @@ APP_DIR=$APP.AppDir
 APP_IMAGE=$APP.AppImage
 
 mkdir $APP_DIR
+mkdir $APP_DIR/usr
 mkdir $APP_DIR/usr/bin
 mkdir $APP_DIR/usr/bin/platforms
 mkdir $APP_DIR/usr/lib
