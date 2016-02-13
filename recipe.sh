@@ -36,7 +36,6 @@ git checkout v0.0.3
 qmake-qt5 MrWriter.pro
 make -j 4
 cd ..
-cd ..
 
 ######################################################
 # Build AppImageKit
