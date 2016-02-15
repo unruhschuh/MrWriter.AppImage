@@ -1,0 +1,23 @@
+
+= AppImage for MrWriter
+
+Here you will find http://appimage.org/[AppImages] for https://github.com/unruhschuh/MrWriter/[MrWriter].
+Please let me know if you have any problems with running MrWriter using the AppImages offered on this site: thomas.leitz@web.de.
+
+== Download
+
+* https://bintray.com/unruhschuh/AppImages/MrWriter/view#files[Download] the latest AppImage for MrWriter
+* Make the AppImage executable, e.g. in the terminal run `chmod a+x MrWriter-x.y.z-x86_64.AppImage`
+
+== How to create an AppImage for MrWriter
+
+The AppImage for MrWriter is created inside a fresh installation of CentOS 6.7. In order to build the AppImage follow these steps
+
+* Install CentOS 6.7 either on a PC or inside VirtualBox or any other virtualization program. Using 'testappimage' of AppImageKit also works, but there are issues with dbus.
+* Start the Terminal and run `git clone https://github.com/unruhschuh/MrWriter.AppImage`
+* Change directory with `cd MrWriter.AppImage`
+* Start compilation and packaging process with `./recipe.sh`. This creates `MrWriter.AppImage` inside the current directory.
+
+== Known issues
+
+* Nothing yet
